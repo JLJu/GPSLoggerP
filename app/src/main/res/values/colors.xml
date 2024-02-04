@@ -25,9 +25,9 @@
 
     <!-- ======[ LIGHT THEME ]================================================================= -->
 
-    <color name="colorPrimary">#880000</color>
-    <color name="colorPrimaryDark">#550000</color>
-    <color name="colorPrimaryLight">#b51111</color>
+    <color name="colorPrimary">#1911b5</color>
+    <color name="colorPrimaryDark">#1c1036</color>
+    <color name="colorPrimaryLight">#112ab5</color>  //   ex #b51111
     <color name="textColorPrimary">#111111</color>
     <color name="textColorCardTitle">#272727</color>
     <color name="textColorSecondary">#666666</color>
@@ -49,8 +49,8 @@
     <color name="colorCardBackground_Selected">#5fff8888</color>
 
     <color name="colorAccent">#000000</color>
-    <color name="preference_accent">#b51111</color>
-    <color name="preference_fallback_accent_color" tools:override="true">#b51111</color>
+    <color name="preference_accent">#112ab5</color>
+    <color name="preference_fallback_accent_color" tools:override="true">#112ab5</color>
 
     <color name="colorRoundedCornerBottom">#eeeeee</color>
     <color name="colorRoundedCornerTop">#ffffff</color>

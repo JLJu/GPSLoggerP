@@ -133,7 +133,7 @@ public class ExternalViewerChecker {
             //intent.setType(ft.mimeType);
 
             File file = new File(ft.mimeType.equals(FILETYPE_GPX) ? FILE_EMPTY_GPX : FILE_EMPTY_KML);
-            Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.graziano.gpslogger.fileprovider", file);
+            Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.gpspro.fileprovider", file);
             intent.setDataAndType(uri, ft.mimeType);
 
 //            File file = new File(ft.mimeType.equals(FILETYPE_GPX) ? EMPTY_GPX : EMPTY_KML);

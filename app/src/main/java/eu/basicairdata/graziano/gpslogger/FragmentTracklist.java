@@ -371,19 +371,19 @@ public class FragmentTracklist extends Fragment {
                 String fname = GPSApplication.getInstance().getFileName(track) + ".kml";
                 file = new File(GPSApplication.DIRECTORY_TEMP + "/", fname);
                 if (file.exists () && GPSApplication.getInstance().getPrefExportKML()) {
-                    Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.graziano.gpslogger.fileprovider", file);
+                    Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.gpspro.fileprovider", file);
                     files.add(uri);
                 }
                 fname = GPSApplication.getInstance().getFileName(track) + ".gpx";
                 file = new File(GPSApplication.DIRECTORY_TEMP + "/", fname);
                 if (file.exists ()  && GPSApplication.getInstance().getPrefExportGPX()) {
-                    Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.graziano.gpslogger.fileprovider", file);
+                    Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.gpspro.fileprovider", file);
                     files.add(uri);
                 }
                 fname = GPSApplication.getInstance().getFileName(track) + ".txt";
                 file = new File(GPSApplication.DIRECTORY_TEMP + "/", fname);
                 if (file.exists ()  && GPSApplication.getInstance().getPrefExportTXT()) {
-                    Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.graziano.gpslogger.fileprovider", file);
+                    Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.gpspro.fileprovider", file);
                     files.add(uri);
                 }
                 i++;

@@ -83,7 +83,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="eu.basicairdata.graziano.gpslogger.fileprovider"
+            android:authorities="eu.basicairdata.gpspro.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

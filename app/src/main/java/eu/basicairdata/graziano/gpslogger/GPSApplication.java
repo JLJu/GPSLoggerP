@@ -1506,7 +1506,7 @@ public class GPSApplication extends Application implements LocationListener {
 
         if (!trackViewer.fileType.isEmpty()) {
             file = new File(DIRECTORY_TEMP + "/", exportingTask.getName() + trackViewer.fileType);
-            Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.graziano.gpslogger.fileprovider", file);
+            Uri uri = FileProvider.getUriForFile(GPSApplication.getInstance(), "eu.basicairdata.gpspro.fileprovider", file);
             getApplicationContext().grantUriPermission(trackViewer.packageName, uri, Intent.FLAG_GRANT_WRITE_URI_PERMISSION | Intent.FLAG_GRANT_READ_URI_PERMISSION);
             intent.setDataAndType(uri, trackViewer.mimeType);
             try {
